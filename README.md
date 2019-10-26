@@ -44,5 +44,5 @@ $tclderdump__linux64 hex_from_py.hex  stdout 1 hex
 Автор - [Орлов Владимир](http://museum.lissi-crypto.ru/)
 
 Email: vorlov@lissi.ru
-Copyright(C) LISSI-Soft Ltd (http://soft.lissi.ru) 2019-2019
+Copyright(C) [LISSI-Soft Ltd](http://soft.lissi.ru) 2019-2019
 P.S. Имеется также реализация данной [утилиты с графическим интерфейсом](https://habr.com/ru/post/468817/)
