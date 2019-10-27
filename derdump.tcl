@@ -80,6 +80,7 @@ if {$inform == "hex"} {
 	append head [string range $data 11 $ind+4]
 	set tail "-----END "
 	append tail [string range $data 11 $ind+4]
+	set data [string map {"\r" ""} $data]
 	array set parsed [::pki::_parse_pem $data $head $tail]
 	set data $parsed(data)
     if {$data == "" } {
